@@ -1,0 +1,95 @@
+Project overview
+This is a grade management system which allows users to enter student records, validate grades, calculate averages, display reports, and manage student data using lists, tuples, and dictionaries.
+
+Section A
+
+Section A practices the use of scalar varuiables, uer input, loops, conditional statements, input validation and basic math calculations.
+
+Features:
+
+Grade validation
+Student data entry
+Grade calculations
+
+Example output:
+
+C:\Users\kaose\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\kaose\Downloads\SECTION A ASSIGNMENT (1).py" 
+Enter number of students:3
+Enter student name: Kao
+Enter grade: 77
+Enter student name: Pako
+Enter grade: 88
+Enter student name: Kaone
+Enter grade: 55
+Kaone Grade: 55
+total class grades: 55
+class average: 18.333333333333332
+
+Section B
+
+The purpose of Section B is to introduce compound data structures that can store multiple values together.
+This section expands the system to handle multiple subjects for each student.
+
+Data structures used:
+
+List
+Tuples
+
+Features:
+
+Multiple subjects
+Student average
+Subject stats(minimum and maximum grade)
+
+Summary table
+
+displays:
+student name
+math grade
+english grade
+science grade
+average
+
+Example output
+
+Math
+Highest: 90
+Lowest: 75
+
+English
+Highest: 88
+Lowest: 70
+
+Science
+Highest: 95
+Lowest: 80
+
+section c
+
+The purpose of Section C is to improve data organization by replacing tuples with nested dictionaries.
+
+Dictionaries provide faster searching and easier management of student records
+
+Data structures used
+
+Dictionaries
+
+Features:
+
+add student
+update student
+remove student
+search student
+view subject grades
+input validation
+
+Example output
+
+Choose an option: 5
+Enter subject name: Math
+
+Math Grades
+Kao: 88
+Pako: 55
+kao: 66.0
+
